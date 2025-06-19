@@ -101,11 +101,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # CORS + CSRF
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://your-frontend.vercel.app",  # Update if needed
+    "https://note-app-bay-two.vercel.app/",  # Update if needed
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://your-frontend.vercel.app",  # Update if needed
+    "https://note-app-bay-two.vercel.app/",  # Update if needed
 ]
 
 # DRF and JWT
